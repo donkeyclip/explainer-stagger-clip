@@ -1,0 +1,45 @@
+<div id="root">
+  <div class="title">Change width of the boxes with stagger</div>
+        <div class="content content1">
+          <div class="note1">
+            width -> @stagger(<span style="color:#E95F74;font-weight: bold;">100px</span>,<span style="color:#945B96;font-weight: bold;">300px</span>)
+          </div>
+          <div class="note2">
+            <div class="note2-part">the <span style="color:#E95F74;font-weight: bold;">first</span> box incident -> 100px</div>
+            <div class="note2-part">the <span style="color:#945B96;font-weight: bold;">last</span> box incident -> 300px</div>
+            <div class="note2-part">the others <span style="color:#2F4858;font-weight: bold;">autocalculated</span></div>
+          </div>
+        </div>
+        <div class="content content2">
+          <div class="note1">
+            width -> @stagger(<span style="color:#E95F74;font-weight: bold;">100px</span>,<span style="color:#945B96;font-weight: bold;">300px</span>,0,<span style="color:#2F4858;font-weight: bold;">easeInCirc</span>)
+          </div>
+          <div class="note2">
+            <div class="note2-part">the <span style="color:#E95F74;font-weight: bold;">first</span> box incident -> 100px</div>
+            <div class="note2-part">the <span style="color:#945B96;font-weight: bold;">last</span> box incident -> 300px</div>
+            <div class="note2-part">the others <span style="color:#2F4858;font-weight: bold;">autocalculated</span></div>
+          </div>
+        </div>
+    <div class="box-container">
+        <div class="box first-box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box last-box"></div>
+    </div>
+    
+
+    <svg id="line" width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+
+      <g>
+       <title>Layer 1</title>
+       <line id="svg_20" y2="303" x2="744" y1="134" x1="541" stroke="#2F4858" fill="none" stroke-width="3"/>
+      </g>
+     </svg>
+    
+<svg id="curve" xmlns="http://www.w3.org/2000/svg" width="800" height="450" style="position: absolute; left: 541px;top:133px;">
+  <path d="M 1.848 0.929 C 2.777 10.5263 3.706 20.1237 4.635 29.721 C 7.421 38.854 10.207 47.987 12.993 57.12 C 18.1013 66.4077 23.2097 75.6953 28.318 84.983 C 36.522 94.2707 44.726 103.5583 52.93 112.846 C 65.778 122.2883 78.626 131.7307 91.474 141.173 C 128.315 150.4607 165.156 159.7483 201.997 169.036" stroke="#2F4858" stroke-width="3" fill="none"/>
+</svg>
+</div>
