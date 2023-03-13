@@ -27,30 +27,30 @@ export const clip = new HTMLClip({
   },
 });
 clip.addIncident(topMove("50%",".title", 1000), 500);
-clip.addIncident(topMove("150%",".title", 1000), 4000);
-clip.addIncident(opacity(1,".content1 .note1", 500), 6000);
-clip.addIncident(opacity(1,".box", 500), 8000);
-clip.addIncident(opacity(1,".content1 .note2-part", 200,"@stagger(0,5000)"), 10000);
-clip.addIncident(widthMove("100px",".first-box",1000), 10000);
-clip.addIncident(widthMove("300px",".last-box",1000), 12500);
-clip.addIncident(svgCover(1,"#line line",1500),15000);
-clip.addIncident(widthMove("@stagger(100px,300px)",".box",1000), 17500);
-clip.addIncident(svgCover(0,"#line line",1000),23000);
-clip.addIncident(widthMove("5px",".box",1000), 23000);
-clip.addIncident(blur("blur(1rem)",".content1",1000), 23000);
-clip.addIncident(opacity(0,".content1",1000), 23000);
+clip.addIncident(topMove("150%",".title", 1000), 3000);
+clip.addIncident(opacity(1,".content1 .note1", 500), 4500);
+clip.addIncident(opacity(1,".box", 500), 5200);
+clip.addIncident(opacity(1,".content1 .note2-part", 200,"@stagger(0,3000)"), 8000);
+clip.addIncident(widthMove("100px",".first-box",1000), 8000);
+clip.addIncident(widthMove("300px",".last-box",1000), 9500);
+clip.addIncident(svgCover(1,"#line line",1500),11000);
+clip.addIncident(widthMove("@stagger(100px,300px)",".box",1000), 13000);
+clip.addIncident(svgCover(0,"#line line",1000),17000);
+clip.addIncident(widthMove("5px",".box",1000), 17000);
+clip.addIncident(blur("blur(1rem)",".content1",1000), 17000);
+clip.addIncident(opacity(0,".content1",1000), 17000);
 
 // /////the second part
-clip.addIncident(opacity(1,".content2 .note1", 500), 25000);
-clip.addIncident(opacity(1,".content2 .note2-part", 200,"@stagger(0,5000)"), 26000);
-clip.addIncident(widthMove("100px",".first-box",1000), 26000);
-clip.addIncident(widthMove("300px",".last-box",1000), 28500);
-clip.addIncident(svgCover(1,"#curve path",1500),31000);
-clip.addIncident(widthMove("@stagger(100px,300px,0,easeInCirc)",".box",1000), 33500);
-clip.addIncident(svgCover(0,"#curve path",1000),39000);
-clip.addIncident(widthMove("0px",".box",1000), 39000);
-clip.addIncident(blur("blur(1rem)",".content2",1000), 39000);
-clip.addIncident(opacity(0,".content2",1000), 39000);
+clip.addIncident(opacity(1,".content2 .note1", 500), 19000);
+clip.addIncident(opacity(1,".content2 .note2-part", 200,"@stagger(0,3000)"), 20000);
+clip.addIncident(widthMove("100px",".first-box",1000), 20000);
+clip.addIncident(widthMove("300px",".last-box",1000), 21500);
+clip.addIncident(svgCover(1,"#curve path",1500),23000);
+clip.addIncident(widthMove("@stagger(100px,300px,0,easeInCirc)",".box",1000), 25000);
+clip.addIncident(svgCover(0,"#curve path",1000),29000);
+clip.addIncident(widthMove("0px",".box",1000), 29000);
+clip.addIncident(blur("blur(1rem)",".content2",1000), 29000);
+clip.addIncident(opacity(0,".content2",1000), 29000);
 
 
 
